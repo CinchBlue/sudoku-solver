@@ -1,0 +1,19 @@
+This sudoku grid
+was created from the one at
+http://en.wikipedia.org/wiki/Sudoku_solving_algorithms
+
+{12X,45X,78X}
+{4X6,7X9,1X3}
+{78X,12X,45X}
+
+{X34,X67,X91}
+{5X7,8X1,2X4}
+{89X,23X,56X}
+
+{X45,X78,X12}
+{6X8,9X2,3X5}
+{91X,34X,67X}
+
+The program won't read past 9 rows.
+
+
