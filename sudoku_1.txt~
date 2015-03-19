@@ -5,15 +5,28 @@ http://en.wikipedia.org/wiki/Sudoku_solving_algorithms
 {12X,45X,78X}
 {4X6,7X9,1X3}
 {78X,12X,45X}
-
+-------------
 {X34,X67,X91}
 {5X7,8X1,2X4}
 {89X,23X,56X}
-
+-------------
 {X45,X78,X12}
 {6X8,9X2,3X5}
 {91X,34X,67X}
 
+------------------------
+| Parser Specification |
+------------------------
+
+The program will ignore everything that is not {}, 0-9, and X or x.
+You can use this to comment in files or even within the rows.
+For example, I put commas to separate the rows and dashes for the box line.
+
 The program won't read past 9 rows.
+
+{ = Begin row.
+} = End row.
+1-9 = The number values. Stored in grid as is.
+0, X, x = Placeholder or empty space. Will be stored as -1.
 
 
